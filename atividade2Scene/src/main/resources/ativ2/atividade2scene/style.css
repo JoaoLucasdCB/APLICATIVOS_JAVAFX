@@ -1,0 +1,27 @@
+.anchor {
+    -fx-background-image: url('imagens/blue-background-14466365179vp.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-radius: 25px;
+}
+.sub
+{
+    -fx-background-color: linear-gradient(
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.2),
+            rgba(20, 20, 20, 0.2),
+            rgba(20, 20, 20, 1)
+    );
+    -fx-background-radius: 25px;
+}
+.button
+{
+    -fx-background-color:
+     linear-gradient (#1c62fc, #67b9fc),
+     radial-gradient(center 50% - 40%, radius 200%,#67b9fc, #1c62fc 45%,#80c800 50%);
+    -fx-background-radius: 6,5;
+    -fx-background-insets: 0,1;
+
+    -fx-effect: dropshadow(three-pass-box);
+
+}
