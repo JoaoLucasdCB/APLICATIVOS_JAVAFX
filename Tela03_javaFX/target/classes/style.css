@@ -1,0 +1,35 @@
+.anchor {
+    -fx-background-color: #2c3e50; /* Fundo azul escuro */
+    -fx-font-family: "Arial";
+}
+
+.label {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 18px;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #3498db;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-background-color: #3498db; /* Azul vibrante */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 8px 20px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-transition: 0.3s;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9; /* Azul mais escuro ao passar o mouse */
+}
+
